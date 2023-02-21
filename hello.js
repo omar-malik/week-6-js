@@ -1,2 +1,5 @@
-console.log("Hello!, I'm a js file");
-console.log(2+2)
+const hello = () => {
+  console.log('Hello!');
+};
+
+module.exports = hello;

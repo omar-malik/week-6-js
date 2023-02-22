@@ -8,3 +8,4 @@ const executeAfterDelay = (time, callFunction) => {
 }
 
 executeAfterDelay(5, printHello);
+

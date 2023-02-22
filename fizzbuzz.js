@@ -1,10 +1,10 @@
 const fizzbuzz = (num) => {
   if (num % 3 === 0 && num % 5 === 0) {
-    return 'fizzbuzz';
+    return "fizzbuzz";
   } else if (num % 5 === 0) {
-    return 'buzz';
+    return "buzz";
   } else if (num % 3 === 0){
-    return 'fizz'
+    return "fizz";
   } else {
     return num
   }

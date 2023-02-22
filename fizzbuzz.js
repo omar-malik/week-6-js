@@ -8,7 +8,7 @@ const fizzbuzz = (num) => {
   } else {
     return num
   }
-}
+};
 
 console.log(fizzbuzz(3))
 console.log(fizzbuzz(5))
@@ -16,3 +16,5 @@ console.log(fizzbuzz(8))
 console.log(fizzbuzz(15))
 console.log(fizzbuzz(18))
 console.log(fizzbuzz(20))
+
+module.exports = fizzbuzz;

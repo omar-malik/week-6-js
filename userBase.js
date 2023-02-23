@@ -30,3 +30,5 @@ console.log(userBase.users);
 console.log(userBase.count());
 console.log(userBase.getNames());
 console.log(userBase.getIntroductions());
+
+module.exports = UserBase;
